@@ -51,7 +51,14 @@ class Navbar extends React.Component {
           </Menu>
         </Sider>
         <Layout className="site-layout">
-          <Header className="site-layout-background" style={{ padding: 0 }} />
+          <Header className="site-layout-background" style={{ padding: 0 }} >
+          <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['2']}>
+        {new Array(15).fill(null).map((_, index) => {
+          const key = index + 1;
+          return <Menu.Item key={key}>{`nav ${key}`}</Menu.Item>;
+        })}
+      </Menu>
+          </Header>
           <Content style={{ margin: '0 16px' }}>
             <Breadcrumb style={{ margin: '16px 0' }}>
               <Breadcrumb.Item>User</Breadcrumb.Item>
