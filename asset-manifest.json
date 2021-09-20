@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/UI-Design-Trial/static/css/main.1bc8dbb9.chunk.css",
+    "main.js": "/UI-Design-Trial/static/js/main.c7acc3f2.chunk.js",
+    "main.js.map": "/UI-Design-Trial/static/js/main.c7acc3f2.chunk.js.map",
+    "runtime-main.js": "/UI-Design-Trial/static/js/runtime-main.46b92f6b.js",
+    "runtime-main.js.map": "/UI-Design-Trial/static/js/runtime-main.46b92f6b.js.map",
+    "static/css/2.a95be28f.chunk.css": "/UI-Design-Trial/static/css/2.a95be28f.chunk.css",
+    "static/js/2.6f7dd2d8.chunk.js": "/UI-Design-Trial/static/js/2.6f7dd2d8.chunk.js",
+    "static/js/2.6f7dd2d8.chunk.js.map": "/UI-Design-Trial/static/js/2.6f7dd2d8.chunk.js.map",
+    "static/js/3.3794707a.chunk.js": "/UI-Design-Trial/static/js/3.3794707a.chunk.js",
+    "static/js/3.3794707a.chunk.js.map": "/UI-Design-Trial/static/js/3.3794707a.chunk.js.map",
+    "index.html": "/UI-Design-Trial/index.html",
+    "static/css/2.a95be28f.chunk.css.map": "/UI-Design-Trial/static/css/2.a95be28f.chunk.css.map",
+    "static/css/main.1bc8dbb9.chunk.css.map": "/UI-Design-Trial/static/css/main.1bc8dbb9.chunk.css.map",
+    "static/js/2.6f7dd2d8.chunk.js.LICENSE.txt": "/UI-Design-Trial/static/js/2.6f7dd2d8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.46b92f6b.js",
+    "static/css/2.a95be28f.chunk.css",
+    "static/js/2.6f7dd2d8.chunk.js",
+    "static/css/main.1bc8dbb9.chunk.css",
+    "static/js/main.c7acc3f2.chunk.js"
+  ]
+}
