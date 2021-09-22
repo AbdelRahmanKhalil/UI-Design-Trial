@@ -11,8 +11,8 @@ function App() {
         <Navbar >
           
         <Switch>
-          <Route path='/' exact component= {Home} />
-          <Route path='/ProgressPage' exact component= {ProgressPage} />
+          <Route path='/UI-Design-Trial/' exact component= {Home} />
+          <Route path='/UI-Design-Trial/ProgressPage' exact component= {ProgressPage} />
         </Switch>
         </Navbar>
       </Router>

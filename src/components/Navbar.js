@@ -39,9 +39,9 @@ class Navbar extends React.Component {
               return <Menu.Item key={key}>{`nav ${key}`}</Menu.Item>;
             })} */}
             {/* <Link to='/'> */}
-            <Menu.Item key={0}>{<Link to="/">Home</Link>}</Menu.Item>
+            <Menu.Item key={0}>{<Link to="/UI-Design-Trial/">Home</Link>}</Menu.Item>
             <Menu.Item key={1}>
-              {<Link to="/ProgressPage">Progress</Link>}
+              {<Link to="/UI-Design-Trial/ProgressPage">Progress</Link>}
             </Menu.Item>
             {/* </Link> */}
           </Menu>
