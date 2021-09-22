@@ -31,14 +31,15 @@ class Navbar extends React.Component {
     return (
       <Layout style={{ minHeight: "100vh" }}>
         <Header className="site-layout-background" style={{ padding: 0 }}>
-        <div className="logo" />
-
+        {/* <div className="logo" /> */}
+        
           <Menu theme="dark" mode="horizontal" defaultSelectedKeys={["0"]}>
             {/* {new Array(15).fill(null).map((_, index) => {
               const key = index + 1;
               return <Menu.Item key={key}>{`nav ${key}`}</Menu.Item>;
             })} */}
             {/* <Link to='/'> */}
+            <Menu.Item ><Avatar size={40} icon={<UserOutlined />} ></Avatar></Menu.Item>
             <Menu.Item key={0}>{<Link to="/UI-Design-Trial/">Home</Link>}</Menu.Item>
             <Menu.Item key={1}>
               {<Link to="/UI-Design-Trial/ProgressPage">Progress</Link>}
