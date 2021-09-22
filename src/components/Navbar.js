@@ -1,6 +1,6 @@
 import React from "react";
 import "antd/dist/antd.css";
-import "./Navbar";
+import "./Navbar.css";
 import { Link } from "react-router-dom";
 import { Layout, Menu, Breadcrumb } from "antd";
 import {
@@ -31,7 +31,7 @@ class Navbar extends React.Component {
     return (
       <Layout style={{ minHeight: "100vh" }}>
         <Header className="site-layout-background" style={{ padding: 0 }}>
-          <div className="logo" />
+        <div className="logo" />
 
           <Menu theme="dark" mode="horizontal" defaultSelectedKeys={["0"]}>
             {/* {new Array(15).fill(null).map((_, index) => {
